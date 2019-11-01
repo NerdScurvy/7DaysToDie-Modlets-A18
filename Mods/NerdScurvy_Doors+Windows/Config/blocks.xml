@@ -1,0 +1,956 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="doorDouble1">
+			<property name="Class" value="DoorSecure"/>
+			<property name="MaxDamage" value="500"/>
+			<property name="CustomIcon" value="doorDouble1"/>
+			<property name="FuelValue" value="500"/>
+			<property name="Material" value="Mwood_regular"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorDouble1" />
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="2,2,1"/>
+			<property name="Tag" value="Door"/>
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="Place" value="Door"/>
+			<property name="OpenSound" value="open_door_wood"/>
+			<property name="CloseSound" value="close_door_wood"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,Science"/>
+			<property name="CustomUpgradeSound" value="place_block_wood"/>
+			<property class="RepairItems">
+				<property name="resourceScrapPolymers" value="3"/>
+				<property name="resourceWood" value="6"/>
+			</property>		
+			<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceBrokenGlass" count="10" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="1" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="2" prob="0.75" stick_chance="1"/>	
+		</block>
+		
+		
+		<block name="doorDouble2">
+			<property name="Extends" value="doorDouble1"/>
+			<property name="CustomIcon" value="doorDouble2"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorDouble2" />
+		</block>
+
+		<block name="doorDouble3">
+			<property name="Extends" value="doorDouble1"/>
+			<property name="CustomIcon" value="doorDouble3"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorDouble3" />
+		</block>
+
+		<block name="doorDouble4">
+			<property name="Extends" value="doorDouble1"/>
+			<property name="CustomIcon" value="doorDouble4"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorDouble4" />
+		</block>
+
+		<block name="doorDouble5">
+			<property name="Extends" value="doorDouble1"/>
+			<property name="CustomIcon" value="doorDouble5"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorDouble5" />
+		</block>
+		
+		<block name="doorSingle1Left">
+			<property name="Class" value="DoorSecure"/>
+			<property name="MaxDamage" value="250"/>
+			<property name="CustomIcon" value="doorSingle1Left"/>
+			<property name="FuelValue" value="250"/>
+			<property name="Material" value="Mwood_regular"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorSingle1Left" />
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="Tag" value="Door"/>
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="Place" value="Door"/>
+			<property name="OpenSound" value="open_door_wood"/>
+			<property name="CloseSound" value="close_door_wood"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,Science"/>
+			<property name="CustomUpgradeSound" value="place_block_wood"/>
+			<property class="RepairItems">
+				<property name="resourceScrapPolymers" value="3"/>
+				<property name="resourceWood" value="6"/>
+			</property>		
+			<drop event="Harvest" name="resourceWood" count="10" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceBrokenGlass" count="5" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="2" prob="0.75" stick_chance="1"/>	
+		</block>		
+		
+		<block name="doorSingle1Right">
+			<property name="Extends" value="doorSingle1Left"/>
+			<property name="CustomIcon" value="doorSingle1Right"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorSingle1Right" />
+		</block>			
+
+		<block name="doorSingle2Right">
+			<property name="Extends" value="doorSingle1Left"/>
+			<property name="CustomIcon" value="doorSingle2Right"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorSingle2Right" />
+		</block>			
+
+		<block name="doorSingle3Right">
+			<property name="Extends" value="doorSingle1Left"/>
+			<property name="CustomIcon" value="doorSingle3Right"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorSingle3Right" />
+		</block>			
+
+		<block name="doorSingle4Right">
+			<property name="Extends" value="doorSingle1Left"/>
+			<property name="CustomIcon" value="doorSingle4Right"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorSingle4Right" />
+		</block>			
+
+		<block name="doorSingle5Right">
+			<property name="Extends" value="doorSingle1Left"/>
+			<property name="CustomIcon" value="doorSingle5Right"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorSingle5Right" />
+		</block>			
+		
+		
+		<block name="doorSingle2Left">
+			<property name="Extends" value="doorSingle1Left"/>
+			<property name="CustomIcon" value="doorSingle2Left"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorSingle2Left" />
+		</block>			
+
+		<block name="doorSingle3Left">
+			<property name="Extends" value="doorSingle1Left"/>
+			<property name="CustomIcon" value="doorSingle3Left"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorSingle3Left" />
+		</block>			
+
+		<block name="doorSingle4Left">
+			<property name="Extends" value="doorSingle1Left"/>
+			<property name="CustomIcon" value="doorSingle4Left"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorSingle4Left" />
+		</block>			
+
+		<block name="doorSingle5Left">
+			<property name="Extends" value="doorSingle1Left"/>
+			<property name="CustomIcon" value="doorSingle5Left"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?DoorSingle5Left" />
+		</block>			
+		
+		<block name="windowBasic1">
+			<property name="MaxDamage" value="200"/>
+			<property name="Material" value="Mglass"/>
+			<property name="CustomIcon" value="windowBasic1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Tag" value="Window"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1" />
+			<property name="ImposterExchange" value="imposterBlock" param1="116"/>
+			<property name="CustomUpgradeSound" value="place_block_wood"/>
+			<drop event="Destroy" name="resourceBrokenGlass" count="1,4"/>
+			<property name="EconomicValue" value="100"/>
+			<property name="FilterTags" value="fdecor,fwindows"/>
+			<property class="RepairItems">
+				<property name="resourceScrapPolymers" value="2"/>
+				<property name="resourceWood" value="3"/>
+			</property>		
+			<drop event="Harvest" name="resourceWood" count="5" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceBrokenGlass" count="5" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="2" prob="0.75" stick_chance="1"/>	
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="windowBasic2"/>
+				<property name="Item" value="windowTint"/>
+				<property name="ItemCount" value="0"/>
+				<property name="UpgradeHitCount" value="0"/>
+			</property>		
+		</block>
+
+		<block name="windowBasic2">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic2"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2" />
+		</block>
+		
+		<block name="windowBasic3">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic3"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3" />
+		</block>
+		
+		<block name="windowBasic4">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic4"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4" />
+		</block>
+
+		<block name="windowBasic5">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic5"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5" />
+		</block>
+		
+		<block name="windowBasic1Centre">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic1Centre"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1Centre" />
+		</block>
+		
+		<block name="windowBasic2Centre">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic2Centre"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2Centre" />
+		</block>
+		
+		<block name="windowBasic3Centre">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic3Centre"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3Centre" />
+		</block>
+		
+		<block name="windowBasic4Centre">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic4Centre"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4Centre" />
+		</block>
+		
+		<block name="windowBasic5Centre">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic5Centre"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5Centre" />
+		</block>
+
+		<block name="windowArch1Centre">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowArch1Centre"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1Centre" />
+		</block>	
+
+		<block name="windowArch2Centre">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowArch2Centre"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2Centre" />
+		</block>	
+		
+		<block name="windowArch3Centre">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowArch3Centre"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3Centre" />
+		</block>	
+
+		<block name="windowArch4Centre">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowArch4Centre"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4Centre" />
+		</block>	
+
+		<block name="windowArch5Centre">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowArch5Centre"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5Centre" />
+		</block>	
+		
+		<block name="windowArch1">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowArch1"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1" />
+		</block>		
+
+		<block name="windowArch2">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowArch2"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2" />
+		</block>		
+
+		<block name="windowArch3">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowArch3"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3" />
+		</block>		
+
+		<block name="windowArch4">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowArch4"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4" />
+		</block>		
+
+		<block name="windowArch5">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowArch5"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5" />
+		</block>		
+		
+		<!-- Coloured Basic windows --> 
+		
+		<block name="windowBasic1CentrePink">
+			<property name="Extends" value="windowBasic1Centre"/>
+			<property name="CustomIcon" value="windowBasic1CentrePink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1CentrePink" />
+		</block>
+		<block name="windowBasic1CentreRed">
+			<property name="Extends" value="windowBasic1Centre"/>
+			<property name="CustomIcon" value="windowBasic1CentreRed"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1CentreRed" />
+		</block>
+		<block name="windowBasic1CentreBlue">
+			<property name="Extends" value="windowBasic1Centre"/>
+			<property name="CustomIcon" value="windowBasic1CentreBlue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1CentreBlue" />
+		</block>
+		<block name="windowBasic1CentrePurple">
+			<property name="Extends" value="windowBasic1Centre"/>
+			<property name="CustomIcon" value="windowBasic1CentrePurple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1CentrePurple" />
+		</block>
+		<block name="windowBasic1CentreYellow">
+			<property name="Extends" value="windowBasic1Centre"/>
+			<property name="CustomIcon" value="windowBasic1CentreYellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1CentreYellow" />
+		</block>
+		<block name="windowBasic1CentreGreen">
+			<property name="Extends" value="windowBasic1Centre"/>
+			<property name="CustomIcon" value="windowBasic1CentreGreen"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1CentreGreen" />
+		</block>
+		
+		<block name="windowBasic2CentrePink">
+			<property name="Extends" value="windowBasic2Centre"/>
+			<property name="CustomIcon" value="windowBasic2CentrePink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2CentrePink" />
+		</block>
+		<block name="windowBasic2CentreRed">
+			<property name="Extends" value="windowBasic2Centre"/>
+			<property name="CustomIcon" value="windowBasic2CentreRed"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2CentreRed" />
+		</block>
+		<block name="windowBasic2CentreBlue">
+			<property name="Extends" value="windowBasic2Centre"/>
+			<property name="CustomIcon" value="windowBasic2CentreBlue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2CentreBlue" />
+		</block>
+		<block name="windowBasic2CentrePurple">
+			<property name="Extends" value="windowBasic2Centre"/>
+			<property name="CustomIcon" value="windowBasic2CentrePurple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2CentrePurple" />
+		</block>
+		<block name="windowBasic2CentreYellow">
+			<property name="Extends" value="windowBasic2Centre"/>
+			<property name="CustomIcon" value="windowBasic2CentreYellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2CentreYellow" />
+		</block>
+		<block name="windowBasic2CentreGreen">
+			<property name="Extends" value="windowBasic2Centre"/>
+			<property name="CustomIcon" value="windowBasic2CentreGreen"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2CentreGreen" />
+		</block>		
+		
+		
+		<block name="windowBasic3CentrePink">
+			<property name="Extends" value="windowBasic3Centre"/>
+			<property name="CustomIcon" value="windowBasic3CentrePink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3CentrePink" />
+		</block>
+		<block name="windowBasic3CentreRed">
+			<property name="Extends" value="windowBasic3Centre"/>
+			<property name="CustomIcon" value="windowBasic3CentreRed"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3CentreRed" />
+		</block>
+		<block name="windowBasic3CentreBlue">
+			<property name="Extends" value="windowBasic3Centre"/>
+			<property name="CustomIcon" value="windowBasic3CentreBlue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3CentreBlue" />
+		</block>
+		<block name="windowBasic3CentrePurple">
+			<property name="Extends" value="windowBasic3Centre"/>
+			<property name="CustomIcon" value="windowBasic3CentrePurple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3CentrePurple" />
+		</block>
+		<block name="windowBasic3CentreYellow">
+			<property name="Extends" value="windowBasic3Centre"/>
+			<property name="CustomIcon" value="windowBasic3CentreYellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3CentreYellow" />
+		</block>
+		<block name="windowBasic3CentreGreen">
+			<property name="Extends" value="windowBasic3Centre"/>
+			<property name="CustomIcon" value="windowBasic3CentreGreen"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3CentreGreen" />
+		</block>		
+		
+		<block name="windowBasic4CentrePink">
+			<property name="Extends" value="windowBasic4Centre"/>
+			<property name="CustomIcon" value="windowBasic4CentrePink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4CentrePink" />
+		</block>
+		<block name="windowBasic4CentreRed">
+			<property name="Extends" value="windowBasic4Centre"/>
+			<property name="CustomIcon" value="windowBasic4CentreRed"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4CentreRed" />
+		</block>
+		<block name="windowBasic4CentreBlue">
+			<property name="Extends" value="windowBasic4Centre"/>
+			<property name="CustomIcon" value="windowBasic4CentreBlue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4CentreBlue" />
+		</block>
+		<block name="windowBasic4CentrePurple">
+			<property name="Extends" value="windowBasic4Centre"/>
+			<property name="CustomIcon" value="windowBasic4CentrePurple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4CentrePurple" />
+		</block>
+		<block name="windowBasic4CentreYellow">
+			<property name="Extends" value="windowBasic4Centre"/>
+			<property name="CustomIcon" value="windowBasic4CentreYellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4CentreYellow" />
+		</block>
+		<block name="windowBasic4CentreGreen">
+			<property name="Extends" value="windowBasic4Centre"/>
+			<property name="CustomIcon" value="windowBasic4CentreGreen"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4CentreGreen" />
+		</block>
+		
+		<block name="windowBasic5CentrePink">
+			<property name="Extends" value="windowBasic5Centre"/>
+			<property name="CustomIcon" value="windowBasic5CentrePink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5CentrePink" />
+		</block>
+		<block name="windowBasic5CentreRed">
+			<property name="Extends" value="windowBasic5Centre"/>
+			<property name="CustomIcon" value="windowBasic5CentreRed"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5CentreRed" />
+		</block>
+		<block name="windowBasic5CentreBlue">
+			<property name="Extends" value="windowBasic5Centre"/>
+			<property name="CustomIcon" value="windowBasic5CentreBlue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5CentreBlue" />
+		</block>
+		<block name="windowBasic5CentrePurple">
+			<property name="Extends" value="windowBasic5Centre"/>
+			<property name="CustomIcon" value="windowBasic5CentrePurple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5CentrePurple" />
+		</block>
+		<block name="windowBasic5CentreYellow">
+			<property name="Extends" value="windowBasic5Centre"/>
+			<property name="CustomIcon" value="windowBasic5CentreYellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5CentreYellow" />
+		</block>
+		<block name="windowBasic5CentreGreen">
+			<property name="Extends" value="windowBasic5Centre"/>
+			<property name="CustomIcon" value="windowBasic5CentreGreen"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5CentreGreen" />
+		</block>
+		
+		<block name="windowBasic1Pink">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic1Pink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1Pink" />
+		</block>
+		<block name="windowBasic1Red">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic1Red"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1Red" />
+		</block>
+		<block name="windowBasic1Blue">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic1Blue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1Blue" />
+		</block>
+		<block name="windowBasic1Purple">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic1Purple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1Purple" />
+		</block>
+		<block name="windowBasic1Yellow">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic1Yellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1Yellow" />
+		</block>
+		<block name="windowBasic1Green">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic1Green"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow1Green" />
+		</block>		
+		
+		<block name="windowBasic2Pink">
+			<property name="Extends" value="windowBasic2"/>
+			<property name="CustomIcon" value="windowBasic2Pink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2Pink" />
+		</block>
+		<block name="windowBasic2Red">
+			<property name="Extends" value="windowBasic2"/>
+			<property name="CustomIcon" value="windowBasic2Red"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2Red" />
+		</block>
+		<block name="windowBasic2Blue">
+			<property name="Extends" value="windowBasic2"/>
+			<property name="CustomIcon" value="windowBasic2Blue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2Blue" />
+		</block>
+		<block name="windowBasic2Purple">
+			<property name="Extends" value="windowBasic2"/>
+			<property name="CustomIcon" value="windowBasic2Purple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2Purple" />
+		</block>
+		<block name="windowBasic2Yellow">
+			<property name="Extends" value="windowBasic2"/>
+			<property name="CustomIcon" value="windowBasic2Yellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2Yellow" />
+		</block>
+		<block name="windowBasic2Green">
+			<property name="Extends" value="windowBasic2"/>
+			<property name="CustomIcon" value="windowBasic2Green"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow2Green" />
+		</block>		
+			
+		<block name="windowBasic3Pink">
+			<property name="Extends" value="windowBasic3"/>
+			<property name="CustomIcon" value="windowBasic3Pink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3Pink" />
+		</block>
+		<block name="windowBasic3Red">
+			<property name="Extends" value="windowBasic3"/>
+			<property name="CustomIcon" value="windowBasic3Red"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3Red" />
+		</block>
+		<block name="windowBasic3Blue">
+			<property name="Extends" value="windowBasic3"/>
+			<property name="CustomIcon" value="windowBasic3Blue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3Blue" />
+		</block>
+		<block name="windowBasic3Purple">
+			<property name="Extends" value="windowBasic3"/>
+			<property name="CustomIcon" value="windowBasic3Purple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3Purple" />
+		</block>
+		<block name="windowBasic3Yellow">
+			<property name="Extends" value="windowBasic3"/>
+			<property name="CustomIcon" value="windowBasic3Yellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3Yellow" />
+		</block>
+		<block name="windowBasic3Green">
+			<property name="Extends" value="windowBasic3"/>
+			<property name="CustomIcon" value="windowBasic3Green"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow3Green" />
+		</block>		
+			
+		<block name="windowBasic4Pink">
+			<property name="Extends" value="windowBasic4"/>
+			<property name="CustomIcon" value="windowBasic4Pink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4Pink" />
+		</block>
+		<block name="windowBasic4Red">
+			<property name="Extends" value="windowBasic4"/>
+			<property name="CustomIcon" value="windowBasic4Red"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4Red" />
+		</block>
+		<block name="windowBasic4Blue">
+			<property name="Extends" value="windowBasic4"/>
+			<property name="CustomIcon" value="windowBasic4Blue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4Blue" />
+		</block>
+		<block name="windowBasic4Purple">
+			<property name="Extends" value="windowBasic4"/>
+			<property name="CustomIcon" value="windowBasic4Purple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4Purple" />
+		</block>
+		<block name="windowBasic4Yellow">
+			<property name="Extends" value="windowBasic4"/>
+			<property name="CustomIcon" value="windowBasic4Yellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4Yellow" />
+		</block>
+		<block name="windowBasic4Green">
+			<property name="Extends" value="windowBasic4"/>
+			<property name="CustomIcon" value="windowBasic4Green"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow4Green" />
+		</block>		
+				
+		<block name="windowBasic5Pink">
+			<property name="Extends" value="windowBasic5"/>
+			<property name="CustomIcon" value="windowBasic5Pink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5Pink" />
+		</block>
+		<block name="windowBasic5Red">
+			<property name="Extends" value="windowBasic5"/>
+			<property name="CustomIcon" value="windowBasic5Red"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5Red" />
+		</block>
+		<block name="windowBasic5Blue">
+			<property name="Extends" value="windowBasic5"/>
+			<property name="CustomIcon" value="windowBasic5Blue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5Blue" />
+		</block>
+		<block name="windowBasic5Purple">
+			<property name="Extends" value="windowBasic5"/>
+			<property name="CustomIcon" value="windowBasic5Purple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5Purple" />
+		</block>
+		<block name="windowBasic5Yellow">
+			<property name="Extends" value="windowBasic5"/>
+			<property name="CustomIcon" value="windowBasic5Yellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5Yellow" />
+		</block>
+		<block name="windowBasic5Green">
+			<property name="Extends" value="windowBasic5"/>
+			<property name="CustomIcon" value="windowBasic5Green"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?BasicWindow5Green" />
+		</block>		
+
+
+		<!-- Coloured Arch windows --> 
+		
+		<block name="windowArch1CentrePink">
+			<property name="Extends" value="windowArch1Centre"/>
+			<property name="CustomIcon" value="windowArch1CentrePink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1CentrePink" />
+		</block>
+		<block name="windowArch1CentreRed">
+			<property name="Extends" value="windowArch1Centre"/>
+			<property name="CustomIcon" value="windowArch1CentreRed"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1CentreRed" />
+		</block>
+		<block name="windowArch1CentreBlue">
+			<property name="Extends" value="windowArch1Centre"/>
+			<property name="CustomIcon" value="windowArch1CentreBlue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1CentreBlue" />
+		</block>
+		<block name="windowArch1CentrePurple">
+			<property name="Extends" value="windowArch1Centre"/>
+			<property name="CustomIcon" value="windowArch1CentrePurple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1CentrePurple" />
+		</block>
+		<block name="windowArch1CentreYellow">
+			<property name="Extends" value="windowArch1Centre"/>
+			<property name="CustomIcon" value="windowArch1CentreYellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1CentreYellow" />
+		</block>
+		<block name="windowArch1CentreGreen">
+			<property name="Extends" value="windowArch1Centre"/>
+			<property name="CustomIcon" value="windowArch1CentreGreen"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1CentreGreen" />
+		</block>
+		
+		<block name="windowArch2CentrePink">
+			<property name="Extends" value="windowArch2Centre"/>
+			<property name="CustomIcon" value="windowArch2CentrePink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2CentrePink" />
+		</block>
+		<block name="windowArch2CentreRed">
+			<property name="Extends" value="windowArch2Centre"/>
+			<property name="CustomIcon" value="windowArch2CentreRed"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2CentreRed" />
+		</block>
+		<block name="windowArch2CentreBlue">
+			<property name="Extends" value="windowArch2Centre"/>
+			<property name="CustomIcon" value="windowArch2CentreBlue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2CentreBlue" />
+		</block>
+		<block name="windowArch2CentrePurple">
+			<property name="Extends" value="windowArch2Centre"/>
+			<property name="CustomIcon" value="windowArch2CentrePurple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2CentrePurple" />
+		</block>
+		<block name="windowArch2CentreYellow">
+			<property name="Extends" value="windowArch2Centre"/>
+			<property name="CustomIcon" value="windowArch2CentreYellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2CentreYellow" />
+		</block>
+		<block name="windowArch2CentreGreen">
+			<property name="Extends" value="windowArch2Centre"/>
+			<property name="CustomIcon" value="windowArch2CentreGreen"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2CentreGreen" />
+		</block>		
+		
+		
+		<block name="windowArch3CentrePink">
+			<property name="Extends" value="windowArch3Centre"/>
+			<property name="CustomIcon" value="windowArch3CentrePink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3CentrePink" />
+		</block>
+		<block name="windowArch3CentreRed">
+			<property name="Extends" value="windowArch3Centre"/>
+			<property name="CustomIcon" value="windowArch3CentreRed"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3CentreRed" />
+		</block>
+		<block name="windowArch3CentreBlue">
+			<property name="Extends" value="windowArch3Centre"/>
+			<property name="CustomIcon" value="windowArch3CentreBlue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3CentreBlue" />
+		</block>
+		<block name="windowArch3CentrePurple">
+			<property name="Extends" value="windowArch3Centre"/>
+			<property name="CustomIcon" value="windowArch3CentrePurple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3CentrePurple" />
+		</block>
+		<block name="windowArch3CentreYellow">
+			<property name="Extends" value="windowArch3Centre"/>
+			<property name="CustomIcon" value="windowArch3CentreYellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3CentreYellow" />
+		</block>
+		<block name="windowArch3CentreGreen">
+			<property name="Extends" value="windowArch3Centre"/>
+			<property name="CustomIcon" value="windowArch3CentreGreen"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3CentreGreen" />
+		</block>		
+		
+		<block name="windowArch4CentrePink">
+			<property name="Extends" value="windowArch4Centre"/>
+			<property name="CustomIcon" value="windowArch4CentrePink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4CentrePink" />
+		</block>
+		<block name="windowArch4CentreRed">
+			<property name="Extends" value="windowArch4Centre"/>
+			<property name="CustomIcon" value="windowArch4CentreRed"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4CentreRed" />
+		</block>
+		<block name="windowArch4CentreBlue">
+			<property name="Extends" value="windowArch4Centre"/>
+			<property name="CustomIcon" value="windowArch4CentreBlue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4CentreBlue" />
+		</block>
+		<block name="windowArch4CentrePurple">
+			<property name="Extends" value="windowArch4Centre"/>
+			<property name="CustomIcon" value="windowArch4CentrePurple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4CentrePurple" />
+		</block>
+		<block name="windowArch4CentreYellow">
+			<property name="Extends" value="windowArch4Centre"/>
+			<property name="CustomIcon" value="windowArch4CentreYellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4CentreYellow" />
+		</block>
+		<block name="windowArch4CentreGreen">
+			<property name="Extends" value="windowArch4Centre"/>
+			<property name="CustomIcon" value="windowArch4CentreGreen"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4CentreGreen" />
+		</block>
+		
+		<block name="windowArch5CentrePink">
+			<property name="Extends" value="windowArch5Centre"/>
+			<property name="CustomIcon" value="windowArch5CentrePink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5CentrePink" />
+		</block>
+		<block name="windowArch5CentreRed">
+			<property name="Extends" value="windowArch5Centre"/>
+			<property name="CustomIcon" value="windowArch5CentreRed"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5CentreRed" />
+		</block>
+		<block name="windowArch5CentreBlue">
+			<property name="Extends" value="windowArch5Centre"/>
+			<property name="CustomIcon" value="windowArch5CentreBlue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5CentreBlue" />
+		</block>
+		<block name="windowArch5CentrePurple">
+			<property name="Extends" value="windowArch5Centre"/>
+			<property name="CustomIcon" value="windowArch5CentrePurple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5CentrePurple" />
+		</block>
+		<block name="windowArch5CentreYellow">
+			<property name="Extends" value="windowArch5Centre"/>
+			<property name="CustomIcon" value="windowArch5CentreYellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5CentreYellow" />
+		</block>
+		<block name="windowArch5CentreGreen">
+			<property name="Extends" value="windowArch5Centre"/>
+			<property name="CustomIcon" value="windowArch5CentreGreen"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5CentreGreen" />
+		</block>
+		
+		<block name="windowArch1Pink">
+			<property name="Extends" value="windowArch1"/>
+			<property name="CustomIcon" value="windowArch1Pink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1Pink" />
+		</block>
+		<block name="windowArch1Red">
+			<property name="Extends" value="windowArch1"/>
+			<property name="CustomIcon" value="windowArch1Red"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1Red" />
+		</block>
+		<block name="windowArch1Blue">
+			<property name="Extends" value="windowArch1"/>
+			<property name="CustomIcon" value="windowArch1Blue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1Blue" />
+		</block>
+		<block name="windowArch1Purple">
+			<property name="Extends" value="windowArch1"/>
+			<property name="CustomIcon" value="windowArch1Purple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1Purple" />
+		</block>
+		<block name="windowArch1Yellow">
+			<property name="Extends" value="windowArch1"/>
+			<property name="CustomIcon" value="windowArch1Yellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1Yellow" />
+		</block>
+		<block name="windowArch1Green">
+			<property name="Extends" value="windowArch1"/>
+			<property name="CustomIcon" value="windowArch1Green"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow1Green" />
+		</block>		
+		
+		<block name="windowArch2Pink">
+			<property name="Extends" value="windowArch2"/>
+			<property name="CustomIcon" value="windowArch2Pink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2Pink" />
+		</block>
+		<block name="windowArch2Red">
+			<property name="Extends" value="windowArch2"/>
+			<property name="CustomIcon" value="windowArch2Red"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2Red" />
+		</block>
+		<block name="windowArch2Blue">
+			<property name="Extends" value="windowArch2"/>
+			<property name="CustomIcon" value="windowArch2Blue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2Blue" />
+		</block>
+		<block name="windowArch2Purple">
+			<property name="Extends" value="windowArch2"/>
+			<property name="CustomIcon" value="windowArch2Purple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2Purple" />
+		</block>
+		<block name="windowArch2Yellow">
+			<property name="Extends" value="windowArch2"/>
+			<property name="CustomIcon" value="windowArch2Yellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2Yellow" />
+		</block>
+		<block name="windowArch2Green">
+			<property name="Extends" value="windowArch2"/>
+			<property name="CustomIcon" value="windowArch2Green"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow2Green" />
+		</block>		
+			
+		<block name="windowArch3Pink">
+			<property name="Extends" value="windowArch3"/>
+			<property name="CustomIcon" value="windowArch3Pink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3Pink" />
+		</block>
+		<block name="windowArch3Red">
+			<property name="Extends" value="windowArch3"/>
+			<property name="CustomIcon" value="windowArch3Red"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3Red" />
+		</block>
+		<block name="windowArch3Blue">
+			<property name="Extends" value="windowArch3"/>
+			<property name="CustomIcon" value="windowArch3Blue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3Blue" />
+		</block>
+		<block name="windowArch3Purple">
+			<property name="Extends" value="windowArch3"/>
+			<property name="CustomIcon" value="windowArch3Purple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3Purple" />
+		</block>
+		<block name="windowArch3Yellow">
+			<property name="Extends" value="windowArch3"/>
+			<property name="CustomIcon" value="windowArch3Yellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3Yellow" />
+		</block>
+		<block name="windowArch3Green">
+			<property name="Extends" value="windowArch3"/>
+			<property name="CustomIcon" value="windowArch3Green"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow3Green" />
+		</block>		
+			
+		<block name="windowArch4Pink">
+			<property name="Extends" value="windowArch4"/>
+			<property name="CustomIcon" value="windowArch4Pink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4Pink" />
+		</block>
+		<block name="windowArch4Red">
+			<property name="Extends" value="windowArch4"/>
+			<property name="CustomIcon" value="windowArch4Red"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4Red" />
+		</block>
+		<block name="windowArch4Blue">
+			<property name="Extends" value="windowArch4"/>
+			<property name="CustomIcon" value="windowArch4Blue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4Blue" />
+		</block>
+		<block name="windowArch4Purple">
+			<property name="Extends" value="windowArch4"/>
+			<property name="CustomIcon" value="windowArch4Purple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4Purple" />
+		</block>
+		<block name="windowArch4Yellow">
+			<property name="Extends" value="windowArch4"/>
+			<property name="CustomIcon" value="windowArch4Yellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4Yellow" />
+		</block>
+		<block name="windowArch4Green">
+			<property name="Extends" value="windowArch4"/>
+			<property name="CustomIcon" value="windowArch4Green"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow4Green" />
+		</block>		
+				
+		<block name="windowArch5Pink">
+			<property name="Extends" value="windowArch5"/>
+			<property name="CustomIcon" value="windowArch5Pink"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5Pink" />
+		</block>
+		<block name="windowArch5Red">
+			<property name="Extends" value="windowArch5"/>
+			<property name="CustomIcon" value="windowArch5Red"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5Red" />
+		</block>
+		<block name="windowArch5Blue">
+			<property name="Extends" value="windowArch5"/>
+			<property name="CustomIcon" value="windowArch5Blue"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5Blue" />
+		</block>
+		<block name="windowArch5Purple">
+			<property name="Extends" value="windowArch5"/>
+			<property name="CustomIcon" value="windowArch5Purple"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5Purple" />
+		</block>
+		<block name="windowArch5Yellow">
+			<property name="Extends" value="windowArch5"/>
+			<property name="CustomIcon" value="windowArch5Yellow"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5Yellow" />
+		</block>
+		<block name="windowArch5Green">
+			<property name="Extends" value="windowArch5"/>
+			<property name="CustomIcon" value="windowArch5Green"/>
+			<property name="Model" value="#@modfolder:Resources/NerdScurvy_Doors+Windows.unity3d?ArchWindow5Green" />
+		</block>		
+		
+		<block name="cleanDoorDoubleBlockVariantHelper">
+			<property name="Extends" value="doorDouble1"/>
+			<property name="CustomIcon" value="doorDouble1"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="PlaceAltBlockValue" value="doorDouble1,doorDouble2,doorDouble3,doorDouble4,doorDouble5"/>
+			<property name="Group" value="Basics,Building,advBuilding"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+		</block>		
+						
+		<block name="cleanDoorSingleBlockVariantHelper">
+			<property name="Extends" value="doorSingle1Left"/>
+			<property name="CustomIcon" value="doorSingle1Left"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="PlaceAltBlockValue" value="doorSingle1Left,doorSingle1Right,doorSingle2Left,doorSingle2Right,doorSingle3Left,doorSingle3Right,doorSingle4Left,doorSingle4Right,doorSingle5Left,doorSingle5Right"/>
+			<property name="Group" value="Basics,Building,advBuilding"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+		</block>						
+						
+		<block name="cleanWindowBlockVariantHelper">
+			<property name="Extends" value="windowBasic1"/>
+			<property name="CustomIcon" value="windowBasic1"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="PlaceAltBlockValue" value="windowBasic1,windowBasic2,windowBasic3,windowBasic4,windowBasic5,windowBasic1Centre,windowBasic2Centre,windowBasic3Centre,windowBasic4Centre,windowBasic5Centre,windowArch1Centre,windowArch2Centre,windowArch3Centre,windowArch4Centre,windowArch5Centre,windowArch1,windowArch2,windowArch3,windowArch4,windowArch5,windowBasic1CentrePink,windowBasic1CentreRed,windowBasic1CentreBlue,windowBasic1CentrePurple,windowBasic1CentreYellow,windowBasic1CentreGreen,windowBasic2CentrePink,windowBasic2CentreRed,windowBasic2CentreBlue,windowBasic2CentrePurple,windowBasic2CentreYellow,windowBasic2CentreGreen,windowBasic3CentrePink,windowBasic3CentreRed,windowBasic3CentreBlue,windowBasic3CentrePurple,windowBasic3CentreYellow,windowBasic3CentreGreen,windowBasic4CentrePink,windowBasic4CentreRed,windowBasic4CentreBlue,windowBasic4CentrePurple,windowBasic4CentreYellow,windowBasic4CentreGreen,windowBasic5CentrePink,windowBasic5CentreRed,windowBasic5CentreBlue,windowBasic5CentrePurple,windowBasic5CentreYellow,windowBasic5CentreGreen,windowBasic1Pink,windowBasic1Red,windowBasic1Blue,windowBasic1Purple,windowBasic1Yellow,windowBasic1Green,windowBasic2Pink,windowBasic2Red,windowBasic2Blue,windowBasic2Purple,windowBasic2Yellow,windowBasic2Green,windowBasic3Pink,windowBasic3Red,windowBasic3Blue,windowBasic3Purple,windowBasic3Yellow,windowBasic3Green,windowBasic4Pink,windowBasic4Red,windowBasic4Blue,windowBasic4Purple,windowBasic4Yellow,windowBasic4Green,windowBasic5Pink,windowBasic5Red,windowBasic5Blue,windowBasic5Purple,windowBasic5Yellow,windowBasic5Green,windowArch1CentrePink,windowArch1CentreRed,windowArch1CentreBlue,windowArch1CentrePurple,windowArch1CentreYellow,windowArch1CentreGreen,windowArch2CentrePink,windowArch2CentreRed,windowArch2CentreBlue,windowArch2CentrePurple,windowArch2CentreYellow,windowArch2CentreGreen,windowArch3CentrePink,windowArch3CentreRed,windowArch3CentreBlue,windowArch3CentrePurple,windowArch3CentreYellow,windowArch3CentreGreen,windowArch4CentrePink,windowArch4CentreRed,windowArch4CentreBlue,windowArch4CentrePurple,windowArch4CentreYellow,windowArch4CentreGreen,windowArch5CentrePink,windowArch5CentreRed,windowArch5CentreBlue,windowArch5CentrePurple,windowArch5CentreYellow,windowArch5CentreGreen,windowArch1Pink,windowArch1Red,windowArch1Blue,windowArch1Purple,windowArch1Yellow,windowArch1Green,windowArch2Pink,windowArch2Red,windowArch2Blue,windowArch2Purple,windowArch2Yellow,windowArch2Green,windowArch3Pink,windowArch3Red,windowArch3Blue,windowArch3Purple,windowArch3Yellow,windowArch3Green,windowArch4Pink,windowArch4Red,windowArch4Blue,windowArch4Purple,windowArch4Yellow,windowArch4Green,windowArch5Pink,windowArch5Red,windowArch5Blue,windowArch5Purple,windowArch5Yellow,windowArch5Green"/>
+			<property name="Group" value="Basics,Building,advBuilding"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+		</block>							
+
+	</append>
+</configs>
