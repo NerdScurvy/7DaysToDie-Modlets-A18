@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Nerd's Paintings" />
+        <Description value="Clean Living: This modlet adds paintings blocks" />
+        <Author value="NerdScurvy" />
+        <Version value="1.3.0" />
+    </ModInfo>
+</xml>
