@@ -1,0 +1,80 @@
+<configs>
+	<append xpath="/items">	
+		
+	<item name="eggCarton12">
+		<property name="CustomIcon" value="eggCarton"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="Stacknumber" value="10"/> <!-- STK ammobundle -->
+		<property name="Weight" value="0"/>
+		<property name="EconomicValue" value="2"/>
+		<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+		<property class="Action0">
+			<property name="Class" value="OpenBundle"/>
+			<property name="Delay" value="0"/>
+			<property name="Use_time" value="0"/>
+			<property name="Sound_start" value="close_garbage"/>
+			<property name="Create_item" value="foodEgg"/>
+			<property name="Create_item_count" value="12"/>
+		</property>
+	</item>
+	<item name="eggCarton4">	
+		<property name="Extends" value="eggCarton12"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="4"/>		
+		</property>
+	</item>	
+	<item name="eggCarton5">	
+		<property name="Extends" value="eggCarton12"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="5"/>		
+		</property>
+	</item>	
+	
+	<item name="eggCarton6">	
+		<property name="Extends" value="eggCarton12"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="6"/>		
+		</property>
+	</item>	
+	<item name="eggCarton7">	
+		<property name="Extends" value="eggCarton12"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="7"/>		
+		</property>
+	</item>	
+	
+	<item name="eggCarton8">	
+		<property name="Extends" value="eggCarton12"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="8"/>		
+		</property>
+	</item>	
+
+	<item name="eggCarton9">	
+		<property name="Extends" value="eggCarton12"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="9"/>		
+		</property>
+	</item>	
+
+	<item name="eggCarton10">	
+		<property name="Extends" value="eggCarton12"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="10"/>		
+		</property>
+	</item>	
+
+	<item name="eggCarton11">	
+		<property name="Extends" value="eggCarton12"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="11"/>		
+		</property>
+    </item>	
+	</append>	
+	
+	
+</configs>
