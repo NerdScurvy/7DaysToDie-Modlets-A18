@@ -10,7 +10,7 @@
 		<property name="Material" value="Morganic"/>
 		<property name="Stacknumber" value="10"/> <!-- STK ammobundle -->
 		<property name="Weight" value="0"/>
-		<property name="EconomicValue" value="2"/>
+		<property name="EconomicValue" value="120"/>
 		<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 		<property class="Action0">
 			<property name="Class" value="OpenBundle"/>
@@ -23,12 +23,14 @@
 	</item>
 	<item name="eggCarton4">	
 		<property name="Extends" value="eggCarton12"/>
+		<property name="EconomicValue" value="40"/>
 		<property class="Action0">
 			<property name="Create_item_count" value="4"/>		
 		</property>
 	</item>	
 	<item name="eggCarton5">	
 		<property name="Extends" value="eggCarton12"/>
+		<property name="EconomicValue" value="50"/>
 		<property class="Action0">
 			<property name="Create_item_count" value="5"/>		
 		</property>
@@ -36,12 +38,14 @@
 	
 	<item name="eggCarton6">	
 		<property name="Extends" value="eggCarton12"/>
+		<property name="EconomicValue" value="60"/>
 		<property class="Action0">
 			<property name="Create_item_count" value="6"/>		
 		</property>
 	</item>	
 	<item name="eggCarton7">	
 		<property name="Extends" value="eggCarton12"/>
+		<property name="EconomicValue" value="70"/>
 		<property class="Action0">
 			<property name="Create_item_count" value="7"/>		
 		</property>
@@ -49,6 +53,7 @@
 	
 	<item name="eggCarton8">	
 		<property name="Extends" value="eggCarton12"/>
+		<property name="EconomicValue" value="80"/>
 		<property class="Action0">
 			<property name="Create_item_count" value="8"/>		
 		</property>
@@ -56,6 +61,7 @@
 
 	<item name="eggCarton9">	
 		<property name="Extends" value="eggCarton12"/>
+		<property name="EconomicValue" value="90"/>
 		<property class="Action0">
 			<property name="Create_item_count" value="9"/>		
 		</property>
@@ -63,6 +69,7 @@
 
 	<item name="eggCarton10">	
 		<property name="Extends" value="eggCarton12"/>
+		<property name="EconomicValue" value="100"/>
 		<property class="Action0">
 			<property name="Create_item_count" value="10"/>		
 		</property>
@@ -70,6 +77,7 @@
 
 	<item name="eggCarton11">	
 		<property name="Extends" value="eggCarton12"/>
+		<property name="EconomicValue" value="110"/>
 		<property class="Action0">
 			<property name="Create_item_count" value="11"/>		
 		</property>
