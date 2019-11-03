@@ -13,8 +13,9 @@
 		</lootgroup>	
 	</insertAfter>
 	
-	<append xpath="/lootcontainers/lootgroup[@name='coldfood']">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='coldfood']/item[@name='foodEgg']">
 		<item group="eggCarton" count="1"/>
-	</append>	
+	</insertAfter>	
+	<remove xpath="/lootcontainers/lootgroup[@name='coldfood']/item[@name='foodEgg']"/>
 	
 </configs>
