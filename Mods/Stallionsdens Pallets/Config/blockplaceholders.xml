@@ -2,39 +2,33 @@
 
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletWhiteBagsBase">
-			<block name="palletWhiteBagsBaseFull" prob=".66"/>
-			<block name="palletWhiteBagsBaseEmpty" prob=".33"/>
+			<block name="palletWhiteBagsBaseEmpty"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletWhiteBagsTile">
-			<block name="palletWhiteBagsTileFull" prob=".66"/>
-			<block name="palletWhiteBagsTileEmpty" prob=".33"/>
+			<block name="palletWhiteBagsTileEmpty"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletWhiteBagsTop">
-			<block name="palletWhiteBagsTopEmpty" prob=".66"/>
-			<block name="palletWhiteBagsTopFull" prob=".33"/>
+			<block name="palletWhiteBagsTopEmpty"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletWhiteBagsPartial1">
-			<block name="palletWhiteBagsPartial1Empty" prob=".66"/>
-			<block name="palletWhiteBagsPartial1Full" prob=".33"/>
+			<block name="palletWhiteBagsPartial1Empty"/>
 		</placeholder>
 	</append>
 	
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletWhiteBagsPartial2">
-			<block name="palletWhiteBagsPartial2Empty" prob=".66"/>
-			<block name="palletWhiteBagsPartial2Full" prob=".33"/>
+			<block name="palletWhiteBagsPartial2Empty"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletWhiteBagsLoose">
-			<block name="palletWhiteBagsLooseEmpty" prob=".66"/>
-			<block name="palletWhiteBagsLooseFull" prob=".33"/>
+			<block name="palletWhiteBagsLooseEmpty" />
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
@@ -65,52 +59,44 @@
 	
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletBricksBase">
-			<block name="palletBricksBaseEmpty" prob=".66"/>
-			<block name="palletBricksBaseFull" prob=".33"/>
+			<block name="palletBricksBaseEmpty"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletBricksTile">
-			<block name="palletBricksTileEmpty" prob=".66"/>
-			<block name="palletBricksTileFull" prob=".33"/>
+			<block name="palletBricksTileEmpty"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletBricksTop">
-			<block name="palletBricksTopEmpty" prob=".66"/>
-			<block name="palletBricksTopFull" prob=".33"/>
+			<block name="palletBricksTopEmpty"/>
 		</placeholder>
 	</append>
 	
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletBricksPartial1">
-			<block name="palletBricksPartial1Empty" prob=".66"/>
-			<block name="palletBricksPartial1Full" prob=".33"/>
+			<block name="palletBricksPartial1Empty"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletBricksPartial2">
-			<block name="palletBricksPartial2Empty" prob=".66"/>
-			<block name="palletBricksPartial2Full" prob=".33"/>
+			<block name="palletBricksPartial2Empty"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletBricksLoose">
-			<block name="palletBricksLooseEmpty" prob=".66"/>
-			<block name="palletBricksLooseFull" prob=".33"/>
+			<block name="palletBricksLooseEmpty"/>
 		</placeholder>
 	</append>
 	
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletBlueTarpBase">
-			<block name="palletBlueTarpBaseEmpty" prob=".66"/>
-			<block name="palletBlueTarpBaseFull" prob=".33"/>
+			<block name="palletBlueTarpBaseEmpty"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletBlueTarpTile">
-			<block name="palletBlueTarpTileEmpty" prob=".66"/>
-			<block name="palletBlueTarpTileFull" prob=".33"/>
+			<block name="palletBlueTarpTileEmpty"/>
 		</placeholder>
 	</append>	
 </stallionsden>

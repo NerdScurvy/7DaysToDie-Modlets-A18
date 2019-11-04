@@ -122,7 +122,6 @@
 			<item name="meleeClubWood" count="1" prob="0.05" />
 			<item name="meleeToolClawHammer" count="1" prob="0.05" />
 			<item name="meleeToolFlashlight02" count="1" prob="0.05" />
-			<item name="meleeToolHoeIron" count="1" prob="0.05" />
 			<item name="meleeToolKnifeIron" count="1" prob="0.05" />
 			<item name="meleeToolPaintTool" count="1" prob="0.05" />
 			<item name="meleeToolShovelIron" count="1" prob="0.05" />
@@ -168,7 +167,6 @@
 			<item name="meleeToolPickaxeSteel" count="1" prob="0.05" />
 			<item name="resourceRadiator" count="1" prob="0.05" />
 			<item name="smallEngine" count="1" prob="0.05" />
-			<item name="toolAndDieSet" count="1" prob="0.05" />
 			<item name="toolAnvil" count="1" prob="0.05" />
 			<item name="toolForgeCrucible" count="1" prob="0.05" />
 			<item name="vehicleBicycleChassis" count="1" prob="0.05" />
@@ -380,9 +378,6 @@
 			<item name="resourceCrushedSand" count="50,150" prob="0.05" />
 			<item name="resourceRockSmall" count="50,150" prob="0.05" />
 			<item name="resourceYuccaFibers" count="50,150" prob="0.05" />
-			<item name="terrGravel" count="5,15" prob="0.05" />
-			<item name="terrSand" count="5,15" prob="0.05" />
-			<item name="terrForestGround" count="5,15" prob="0.05" />
 		</lootgroup>
 
 		<lootgroup name="powdersUncommon_sm" count="1">
@@ -394,8 +389,6 @@
 		<lootgroup name="powdersRare_sm" count="1">
 			<item name="resourceConcreteMix" count="50,150" prob="0.05" />
 			<item name="resourceOilShale" count="50,150" prob="0.05" />
-			<item name="terrAsphalt" count="5,15" prob="0.05" />
-			<item name="terrConcrete" count="5,15" prob="0.05" />
 		</lootgroup>
 		
 		<!-- Now we are up to the pallets! -->
@@ -433,8 +426,8 @@
 			<item group="palletCommon_sm" count="1" prob="0.05" />
 			<item group="hardwareCommon_sm" count="1" prob="0.05" />
 			<item group="hardwareUncommon_sm" count="1" prob="0.05" />
-			<item group="hardwareRare_sm" count="1" prob="0.05" />
-			<item group="hardwareLegendary_sm" count="1" prob="0.05" />
+			<item group="hardwareRare_sm" count="1" prob="0.02" />
+			<item group="hardwareLegendary_sm" count="1" prob="0.01" />
 			<item group="attachmentsCommon_sm" count="1" prob="0.05" />
 			<item group="attachmentsUncommon_sm" count="1" prob="0.05" />
 			<item group="attachmentsRare_sm" count="1" prob="0.05" />
