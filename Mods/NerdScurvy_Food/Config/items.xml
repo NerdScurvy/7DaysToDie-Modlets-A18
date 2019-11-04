@@ -82,6 +82,32 @@
 			<property name="Create_item_count" value="11"/>		
 		</property>
     </item>	
+	
+	<item name="foodNukella">
+		<property name="Tags" value="food"/>
+		<property name="CustomIcon" value="nukella"/>
+		<property name="HoldType" value="3"/>
+		<property name="DisplayType" value="food"/>
+		<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="EconomicValue" value="300"/>
+		<property name="Stacknumber" value="10"/> <!-- STK food -->
+		<property name="Group" value="Food,Science,CFChemicals,Medical"/>
+		<property class="Action0">
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Sound_start" value="player_eating"/>
+			<property name="Create_item" value="drinkJarEmpty"/>
+		</property>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffRadiatedRegenPlayer"/>
+		</effect_group>
+	</item>	
+	
 	</append>	
 	
 	

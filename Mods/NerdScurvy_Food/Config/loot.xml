@@ -15,6 +15,7 @@
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='coldfood']/item[@name='foodEgg']">
 		<item group="eggCarton" count="1"/>
+		<item name="foodNukella" count="1" prob="0.1"/>
 	</insertAfter>	
 	<remove xpath="/lootcontainers/lootgroup[@name='coldfood']/item[@name='foodEgg']"/>
 	
