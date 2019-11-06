@@ -1,0 +1,107 @@
+<configs>
+	<append xpath="/items">	
+		
+	<item name="resourceAmmoBundleBall10A">
+		<property name="CustomIcon" value="resourceAmmoBundle"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="Stacknumber" value="100"/> 
+		<property name="Weight" value="0"/>
+		<property name="EconomicValue" value="90"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property class="Action0">
+			<property name="Class" value="OpenBundle"/>
+			<property name="Delay" value="0"/>
+			<property name="Use_time" value="0"/>
+			<property name="Sound_start" value="close_garbage"/>
+			<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+			<property name="Create_item_count" value="8,8,8"/>
+		</property>
+	</item>
+	<item name="resourceAmmoBundleHP10A">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="140"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="16,8,8"/>		
+		</property>
+	</item>
+	<item name="resourceAmmoBundleAP10A">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="140"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="8,16,8"/>		
+		</property>
+	</item>
+	<item name="resourceAmmoBundleBall10B">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="100"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="8,24,8"/>		
+		</property>
+	</item>
+	<item name="resourceAmmoBundleHP10B">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="150"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="16,24,8"/>		
+		</property>
+	</item>
+	<item name="resourceAmmoBundleAP10B">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="150"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="8,40,8"/>		
+		</property>
+	</item>
+
+	<item name="resourceAmmoBundleBall100A">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="900"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="80,80,80"/>		
+		</property>
+	</item>
+	<item name="resourceAmmoBundleHP100A">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="1400"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="160,80,80"/>		
+		</property>
+	</item>
+	<item name="resourceAmmoBundleAP100A">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="1400"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="80,160,80"/>		
+		</property>
+	</item>
+	<item name="resourceAmmoBundleBall100B">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="1000"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="80,240,80"/>		
+		</property>
+	</item>
+	<item name="resourceAmmoBundleHP100B">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="1500"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="160,240,80"/>		
+		</property>
+	</item>
+	<item name="resourceAmmoBundleAP100B">	
+		<property name="Extends" value="resourceAmmoBundleBall10A"/>
+		<property name="EconomicValue" value="1500"/>
+		<property class="Action0">
+			<property name="Create_item_count" value="80,400,80"/>		
+		</property>
+	</item>
+
+
+	</append>	
+	
+	
+</configs>

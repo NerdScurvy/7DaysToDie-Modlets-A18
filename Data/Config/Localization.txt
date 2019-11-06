@@ -9142,3 +9142,16 @@ palletBricksPartial2Full,blocks,Container,KgNone,pallet Bricks Partial 2
 palletBricksLooseFull,blocks,Container,KgNone,pallet Bricks Loose
 palletBlueTarpBaseFull,blocks,Container,KgNone,pallet BlueTarp Base
 palletBlueTarpTileFull,blocks,Container,KgNone,pallet BlueTarp Tile
+
+resourceAmmoBundleBall10A,items,Item,KgNone,Recycled ammo 10 Light,,,,,
+resourceAmmoBundleHP10A,items,Item,KgNone,Recycled ammo 10 HP Light,,,,,
+resourceAmmoBundleAP10A,items,Item,KgNone,Recycled ammo 10 AP Light,,,,,
+resourceAmmoBundleBall10B,items,Item,KgNone,Recycled ammo 10 Heavy,,,,,
+resourceAmmoBundleHP10B,items,Item,KgNone,Recycled ammo 10 HP Heavy,,,,,
+resourceAmmoBundleAP10B,items,Item,KgNone,Recycled ammo 10 AP Heavy,,,,,
+resourceAmmoBundleBall100A,items,Item,KgNone,Recycled ammo 100 Light,,,,,
+resourceAmmoBundleHP100A,items,Item,KgNone,Recycled ammo 100 HP Light,,,,,
+resourceAmmoBundleAP100A,items,Item,KgNone,Recycled ammo 100 AP Light,,,,,
+resourceAmmoBundleBall100B,items,Item,KgNone,Recycled ammo 100 Heavy,,,,,
+resourceAmmoBundleHP100B,items,Item,KgNone,Recycled ammo 100 HP Heavy,,,,,
+resourceAmmoBundleAP100B,items,Item,KgNone,Recycled ammo 100 AP Heavy,,,,,
