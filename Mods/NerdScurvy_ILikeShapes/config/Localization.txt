@@ -1,0 +1,1 @@
+woodBlockVariantHelper,blocks,Variant,New,Wood Block,,,,,

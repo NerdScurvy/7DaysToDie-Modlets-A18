@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="NerdScurvy's I Like Shapes" />
+        <Description value="This modlet adds recipes for vanilla blocks" />
+        <Author value="NerdScurvy" />
+        <Version value="1.1.0" />
+    </ModInfo>
+</xml>

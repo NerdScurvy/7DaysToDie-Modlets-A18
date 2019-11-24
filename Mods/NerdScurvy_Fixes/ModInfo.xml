@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
     <ModInfo>
-        <Name value="Nerd's resourcefull" />
-        <Description value="This modlet improves resource harvesting" />
+        <Name value="Nerd's Fixes" />
+        <Description value="General fixes" />
         <Author value="NerdScurvy" />
         <Version value="1.0.0" />
     </ModInfo>

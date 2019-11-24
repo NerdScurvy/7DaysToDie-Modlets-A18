@@ -9091,3 +9091,5 @@ resourceAmmoBundleAP100A,items,Item,KgNone,Recycled ammo 100 AP Light,,,,,
 resourceAmmoBundleBall100B,items,Item,KgNone,Recycled ammo 100 Heavy,,,,,
 resourceAmmoBundleHP100B,items,Item,KgNone,Recycled ammo 100 HP Heavy,,,,,
 resourceAmmoBundleAP100B,items,Item,KgNone,Recycled ammo 100 AP Heavy,,,,,
+
+woodBlockVariantHelper,blocks,Variant,New,Wood Block,,,,,

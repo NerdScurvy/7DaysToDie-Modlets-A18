@@ -2,7 +2,14 @@
 	<set xpath="//display_value[@name='dCraftingSmeltTime']/@value">1.5</set>
 	<set xpath="//display_value[@name='dCraftingTime']/@value">1.5</set>
 	<set xpath="/items/item/property[@name='CraftingIngredientTime']/@value">0.1</set>
-	<set xpath="//effect_group[@name='meleeToolAuger']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">80</set>
-	<set xpath="//effect_group[@name='meleeToolChainsaw']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">80</set>
+	<set xpath="//effect_group[@name='meleeToolAuger']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">100</set>
+	<set xpath="//effect_group[@name='meleeToolChainsaw']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">100</set>
 	<set xpath="//effect_group[@name='meleeToolWrench']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">50</set>
+	
+	<set xpath="//effect_group[@name='meleeToolFireaxeIron']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">55.0</set>
+	<set xpath="//effect_group[@name='meleeToolFireaxeSteel']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">95.0</set>
+	<set xpath="//effect_group[@name='meleeToolPickaxeIron']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">45.0</set>
+	<set xpath="//effect_group[@name='meleeToolPickaxeSteel']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">80.0</set>
+	<set xpath="//effect_group[@name='meleeToolShovelIron']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">56</set>
+	<set xpath="//effect_group[@name='meleeToolShovelSteel']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">79</set>
 </configs>

@@ -1,0 +1,11 @@
+<configs>
+  <append xpath="/recipes">
+    <!-- NerdScurvy's - I Like Shapes -->
+ 	
+	<recipe name="woodBlockVariantHelper" count="1" craft_area="tablesaw">
+	  <ingredient name="resourceWood" count="6"/>
+	</recipe>		
+	
+
+  </append>
+</configs>
